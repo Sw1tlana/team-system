@@ -16,11 +16,6 @@
   position: relative;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
-}
-
 .nav-link::after {
   position: absolute;
   left: 0;
@@ -31,7 +26,8 @@
   content: ''; 
 }
 
-.nav-link::after:hover,
-.nav-link::after:focus {
+.nav-link:hover:after,
+.nav-link:focus:after {
+  width: 100%;
   color: #747bff;
 }

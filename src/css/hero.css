@@ -1,0 +1,17 @@
+.hero-title {
+    color: var(--color-white);
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+}
+
+.mini-title-color {
+    color: var(--color-secondary);
+    font-style: italic;
+}
+
+.hero-section {
+    padding-top: 80px;
+    padding-bottom: 56px;
+}
