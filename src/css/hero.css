@@ -1,9 +1,9 @@
 .hero-title {
-    color: var(--color-white);
     font-size: 64px;
     font-weight: 500;
     line-height: 1.06;
     letter-spacing: -0.02em;
+    margin-bottom: 20px;
 }
 
 .mini-title-color {
@@ -14,4 +14,12 @@
 .hero-section {
     padding-top: 80px;
     padding-bottom: 56px;
+}
+
+.hero-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02;
 }
