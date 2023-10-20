@@ -1,0 +1,19 @@
+.rewievs-section {
+    padding: 40px 0;
+}
+
+.rewievs-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.rewievs-item {
+    padding: 20px;
+    border: 1px solid var(--color-secondary);
+    flex-basis: calc((100% - 120px) / 2);
+}
+
+.subtitle-rewievs {}
+
+.text-rewievs {}
