@@ -1,0 +1,19 @@
+.footer-list {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.footer-item {
+ flex-basis: calc((100% - 40px) / 3);
+}
+
+.footer-link {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: rgb(119, 119, 196);
+}
